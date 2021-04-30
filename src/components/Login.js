@@ -10,11 +10,13 @@ const Tituloprincipal = styled.h1`
 
 const ContainerRegister = styled.div`
        
-        background-color : tomato ;        
-        display:flex;
-        width:100%; 
-        position: relative;
-
+        background-color : tomato ;    
+        
+      
+        display: grid;
+         grid-template-columns: 50% 50%;
+         grid-template-rows: 100%;
+        
        `;
 
 
@@ -25,9 +27,8 @@ const ImgRegister = styled.div`
     background-position: center;
     background-size:cover;
     position: relative;
-    width: 52%;
-    height: auto ;
-   
+    height :800px ;
+    border-radius: 10% 0 0 10%;
    
     `;
 
@@ -49,9 +50,9 @@ export default function Login() {
             <ContainerRegister className="container">
 
                 
-            <ImgRegister>
-                
-                </ImgRegister>
+            <ImgRegister >
+             </ImgRegister >    
+               
 
                    
 
