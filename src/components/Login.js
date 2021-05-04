@@ -10,12 +10,13 @@ const Tituloprincipal = styled.h1`
 
 const ContainerRegister = styled.div`
        
-        background-color : tomato ;    
+        background-color :transparent;    
+        width :100%;   
+        display:flex;
+        flex-direction : row ;
+        justify-content:center;
+        padding:0;
         
-      
-        display: grid;
-         grid-template-columns: 50% 50%;
-         grid-template-rows: 100%;
         
        `;
 
@@ -23,11 +24,13 @@ const ContainerRegister = styled.div`
 
 const ImgRegister = styled.div`
    
-    background-image : url("../image/Register.jpg") ;
-    background-position: center;
+    background-image : url("../image/Register.jpg") ;   
     background-size:cover;
+    
     position: relative;
-    height :800px ;
+    display:block;
+    height :auto;
+    width:45%;
     border-radius: 10% 0 0 10%;
    
     `;
