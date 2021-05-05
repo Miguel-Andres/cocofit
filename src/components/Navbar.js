@@ -14,7 +14,7 @@ export default function Navbar() {
 
            <NavbarContainer>
                <div>
-              <img src="/image/Logo.svg" width="50px" />
+              <img src="/image/Logo.svg" width="50px"  height="100px"/>
                </div>
                 <div>
                     <p>Login</p>                    
