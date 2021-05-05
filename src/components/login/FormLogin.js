@@ -6,16 +6,18 @@ const FormRegister = styled.form`
     border : 1px solid #698F88;
     border-radius: 10px;
     background-color: #18181c;
-    padding: 20px;
+    
     display: flex;
     flex-direction: column ;
     color: white;
+
     
 
     input{
         margin:10px;
         border-radius:10px;
-        background-color : black ;        
+        background-color :black ;  
+         
         padding:5px;
         color:white;    
         font-family: 'Dosis', sans-serif;  
@@ -58,6 +60,9 @@ const Container = styled.div`
     height:780px;
     padding:30px;
     border-radius: 0 10% 10% 0 ;
+    opacity:0.5;
+    box-shadow:10px 0px 5px #FF8BCB;
+
     color:white ;
     display:flex;
     flex-direction:column;
@@ -76,7 +81,7 @@ const Divider = styled.hr`
     height: 5px;
 
    :after {
-    background :black ;
+    background :black;
     content: 'O';
     padding: 0 4px;
     position: relative;
@@ -152,7 +157,9 @@ export default function FormLogin() {
                     </div>
 
                 </ButtonGoogle>
+               
             </Container>
+            
             
 
         </div >
