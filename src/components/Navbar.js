@@ -17,8 +17,10 @@ export default function Navbar() {
               <img src="/image/Logo.svg" width="50px" />
                </div>
                 <div>
-                    <p>Login</p>
-                    <p>Login</p>
+                    <p>Login</p>                    
+                </div>
+                <div>
+                    Register
                 </div>
            </NavbarContainer>
 
