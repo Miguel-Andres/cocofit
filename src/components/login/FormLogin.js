@@ -47,6 +47,8 @@ const ButtonGoogle = styled.div`
     border : 1px solid #698F88 ;
     font-weight:bold;
     cursor: pointer;
+    display:flex;
+    align-items:center;
 
     span{
         margin:5px;
